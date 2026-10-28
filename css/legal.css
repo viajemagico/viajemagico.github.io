@@ -1,0 +1,24 @@
+body{margin:0;background:#FFF8EE;color:#2A2140;font-family:Nunito,system-ui,sans-serif;font-size:17px;line-height:1.65}
+a{color:#5B2CA8}a:hover{color:#2A1670}
+.cab{background:linear-gradient(160deg,#120B33 0%,#2A1670 60%,#5B2CA8 100%);color:#fff;padding:22px 24px}
+.cab-in{max-width:880px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+.marca{display:flex;align-items:baseline;gap:10px;color:#fff;text-decoration:none}
+.marca .l{font-family:"Dancing Script",cursive;font-size:30px;color:#FFE08A}
+.marca .v{font-family:Fredoka,sans-serif;font-weight:600;font-size:13px;letter-spacing:.2em;text-transform:uppercase}
+.volver{color:#fff;font-family:Fredoka,sans-serif;font-weight:500;text-decoration:none;border:2px solid rgba(255,255,255,.55);border-radius:999px;padding:10px 20px}
+.volver:hover{color:#fff;background:rgba(255,255,255,.12)}
+main{max-width:880px;margin:0 auto;padding:56px 24px 80px}
+h1{font-family:Fredoka,sans-serif;font-weight:700;color:#2A1670;font-size:clamp(32px,5vw,46px);line-height:1.1;margin:0 0 8px}
+h2{font-family:Fredoka,sans-serif;font-weight:600;color:#2A1670;font-size:24px;margin:40px 0 8px}
+.fecha{color:#5C5470;margin:0 0 32px}
+.ficha{background:#fff;border-radius:20px;padding:22px 26px;box-shadow:0 6px 20px rgba(59,30,122,.08);margin:0}
+.ficha dt{font-weight:800;color:#2A1670}
+.ficha dd{margin:0 0 10px}
+ul{padding-left:22px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:16px;overflow:hidden}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid #EFE7FF;vertical-align:top}
+th{background:#EFE7FF;color:#2A1670}
+.tabla{overflow-x:auto}
+footer{background:#0D0826;color:#C9BEEA;padding:32px 24px;font-size:14px}
+footer .in{max-width:880px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 20px}
+footer a{color:#C9BEEA}
