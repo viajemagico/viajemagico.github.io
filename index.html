@@ -1,2 +1,484 @@
-# viajemagico.github.io
-web
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lorena Viaje Mágico · Agente Disney autorizada · Disneyland Paris</title>
+<link rel="canonical" href="https://viajemagico.es/">
+<meta name="description" content="Agente Disney autorizada especializada en Disneyland Paris. Paquetes de hotel, entradas y vuelos, solo hotel y entradas o solo entradas. Presupuesto gratis y sin compromiso.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/fuentes.css">
+<style>
+body{margin:0;background:#FFF8EE}
+a{color:#3B1E7A}a:hover{color:#1B1145}
+summary{cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+input,select,textarea{font:inherit}
+@keyframes twinkle{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes burst{0%{opacity:0;transform:scale(.3)}20%{opacity:1}100%{opacity:0;transform:scale(1.1)}}
+.tw{transform-box:fill-box;transform-origin:center;animation:twinkle 2.6s ease-in-out infinite}
+.tw2{transform-box:fill-box;transform-origin:center;animation:twinkle 3.4s ease-in-out .8s infinite}
+.tw3{transform-box:fill-box;transform-origin:center;animation:twinkle 2.1s ease-in-out 1.4s infinite}
+.fw{transform-box:fill-box;transform-origin:center;animation:burst 3.2s ease-out infinite}
+.fw2{transform-box:fill-box;transform-origin:center;animation:burst 3.2s ease-out 1.6s infinite}
+.wheel{transform-box:fill-box;transform-origin:center;animation:spin 40s linear infinite}
+.floaty{animation:floaty 5s ease-in-out infinite}
+.lift{transition:transform .25s ease, box-shadow .25s ease}
+.lift:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(59,30,122,.18)}
+.btn{transition:transform .2s ease, box-shadow .2s ease}
+.btn:hover{transform:translateY(-2px) scale(1.02);box-shadow:0 10px 26px rgba(255,201,74,.45)}
+@media (prefers-reduced-motion: reduce){.tw,.tw2,.tw3,.fw,.fw2,.wheel,.floaty{animation:none}}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div style="font-family: Nunito, system-ui, sans-serif; color: #2A2140; background: #FFF8EE; line-height: 1.6; font-size: 17px; overflow-x: hidden">
+
+<!-- ===== HERO: CIELO NOCTURNO ===== -->
+<section id="inicio" style="position: relative; overflow: hidden; color: #FFFFFF; background: linear-gradient(180deg, #120B33 0%, #2A1670 45%, #5B2CA8 78%, #C4579E 100%)">
+
+<!-- estrellas y fuegos -->
+<svg width="100%" height="100%" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="position: absolute; inset: 0">
+<g fill="#FFFFFF">
+<circle class="tw" cx="80" cy="90" r="2"></circle><circle class="tw2" cx="210" cy="190" r="1.5"></circle><circle class="tw3" cx="350" cy="70" r="2.2"></circle>
+<circle class="tw" cx="520" cy="150" r="1.4"></circle><circle class="tw2" cx="690" cy="60" r="1.8"></circle><circle class="tw3" cx="860" cy="200" r="1.3"></circle>
+<circle class="tw" cx="1010" cy="80" r="2"></circle><circle class="tw2" cx="1170" cy="170" r="1.6"></circle><circle class="tw3" cx="1330" cy="60" r="2.1"></circle>
+<circle class="tw2" cx="140" cy="330" r="1.3"></circle><circle class="tw" cx="1260" cy="330" r="1.5"></circle><circle class="tw3" cx="620" cy="290" r="1.2"></circle>
+<circle class="tw" cx="430" cy="380" r="1.1"></circle><circle class="tw2" cx="980" cy="390" r="1.4"></circle>
+</g>
+<g fill="#FFE08A">
+<path class="tw2" d="M300 250l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"></path>
+<path class="tw" d="M1100 280l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"></path>
+<path class="tw3" d="M760 120l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"></path>
+</g>
+<!-- luna -->
+<path d="M1250 140a52 52 0 1 0 40 86 42 42 0 1 1-40-86z" fill="#FFE9A8" opacity="0.95"></path>
+<!-- fuegos artificiales -->
+<g class="fw" stroke="#FF8FC4" stroke-width="3" stroke-linecap="round">
+<path d="M240 160v-34M240 194v34M206 160h-34M274 160h34M216 136l-22-22M264 136l22-22M216 184l-22 22M264 184l22 22"></path>
+</g>
+<g class="fw2" stroke="#FFD25A" stroke-width="3" stroke-linecap="round">
+<path d="M1080 150v-30M1080 180v30M1050 165h-30M1110 165h30M1059 144l-20-20M1101 144l20-20M1059 186l-20 20M1101 186l20 20"></path>
+</g>
+<g class="fw2" stroke="#7FE3DA" stroke-width="2.5" stroke-linecap="round">
+<path d="M560 230v-22M560 252v22M538 230h-22M582 230h22M545 215l-15-15M575 215l15-15M545 245l-15 15M575 245l15 15"></path>
+</g>
+<!-- estela de chispas -->
+<path d="M-40 620 C 300 460, 760 700, 1480 470" fill="none" stroke="#FFE08A" stroke-width="2.5" stroke-dasharray="1 14" stroke-linecap="round" opacity="0.9"></path>
+</svg>
+
+<!-- cabecera -->
+<header style="position: relative; max-width: 1240px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#inicio" style="display: flex; align-items: center; gap: 12px; color: #FFFFFF; text-decoration: none">
+<span style="width: 46px; height: 46px; border-radius: 50%; background: #FFC94A; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 24px rgba(255,201,74,.6)">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="#2A1670" aria-hidden="true"><path d="M12 2l2.4 5.6L20 8.3l-4.3 3.9 1.2 5.8L12 15l-4.9 3 1.2-5.8L4 8.3l5.6-.7z"></path></svg>
+</span>
+<span style="display: flex; flex-direction: column; line-height: 1">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #FFE08A">Lorena</span>
+<span style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 13px; letter-spacing: .2em; text-transform: uppercase">Viaje Mágico</span>
+</span>
+</a>
+<nav aria-label="Principal" style="display: flex; flex-wrap: wrap; gap: 4px 24px; font-family: Fredoka, sans-serif; font-weight: 500; font-size: 16px">
+<a href="#servicios" style="color: #FFFFFF; text-decoration: none">Servicios</a>
+<a href="#paquetes" style="color: #FFFFFF; text-decoration: none">Paquetes</a>
+<a href="#como-funciona" style="color: #FFFFFF; text-decoration: none">Cómo funciona</a>
+<a href="#tarifas" style="color: #FFFFFF; text-decoration: none">Tarifas</a>
+<a href="#confianza" style="color: #FFFFFF; text-decoration: none">Garantías</a>
+<a href="#sobre-mi" style="color: #FFFFFF; text-decoration: none">Sobre mí</a>
+<a href="#faq" style="color: #FFFFFF; text-decoration: none">Preguntas</a>
+</nav>
+<a class="btn" href="#contacto" style="background: #FFC94A; color: #2A1670; text-decoration: none; font-family: Fredoka, sans-serif; font-weight: 600; padding: 12px 22px; border-radius: 999px; font-size: 16px; min-height: 46px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 8px">✦ Presupuesto gratis</a>
+</header>
+
+<!-- contenido hero -->
+<div style="position: relative; max-width: 1240px; margin: 0 auto; padding: 56px 24px 0; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 999 1 540px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.35); border-radius: 999px; padding: 8px 18px; font-weight: 700; font-size: 14px; letter-spacing: .04em">✦ Agente Disney autorizada · Especialista en Disneyland Paris</span>
+<h1 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(42px, 5.8vw, 76px); line-height: 1.02">Haz realidad<br>el viaje más <span style="font-family: 'Dancing Script', cursive; color: #FFC94A; font-size: 1.2em; text-shadow: 0 0 28px rgba(255,201,74,.55)">mágico</span><br>de tu familia</h1>
+<p style="margin: 0; font-size: 20px; color: #F1E9FF; max-width: 580px">Hotel, entradas y vuelos a Disneyland Paris, restaurantes, trucos para evitar colas e itinerario día a día. Tú vives la magia; yo me encargo de todo lo demás. Y en la mayoría de reservas pagas lo mismo que reservando por tu cuenta.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px">
+<a class="btn" href="#contacto" style="background: #FFC94A; color: #2A1670; text-decoration: none; font-family: Fredoka, sans-serif; font-weight: 600; padding: 17px 30px; border-radius: 999px; font-size: 18px; box-shadow: 0 8px 24px rgba(255,201,74,.35)">Quiero mi presupuesto mágico ✦</a>
+<a href="#servicios" style="color: #FFFFFF; text-decoration: none; font-family: Fredoka, sans-serif; font-weight: 500; padding: 17px 26px; border-radius: 999px; border: 2px solid rgba(255,255,255,.55); font-size: 18px">Descubre qué incluye</a>
+</div>
+<ul style="margin: 6px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 15px; font-weight: 700; color: #F1E9FF">
+<li style="display: flex; gap: 8px; align-items: center"><span style="color: #FFC94A">★</span>Sin gastos de gestión*</li>
+<li style="display: flex; gap: 8px; align-items: center"><span style="color: #FFC94A">★</span>Vigilo las ofertas tras tu reserva</li>
+<li style="display: flex; gap: 8px; align-items: center"><span style="color: #FFC94A">★</span>Contigo antes, durante y después</li>
+<li style="display: flex; gap: 8px; align-items: center"><span style="color: #FFC94A">★</span>Tu localizador antes de pagar</li>
+</ul>
+</div>
+
+<!-- tarjeta foto flotante -->
+<div class="floaty" style="flex: 1 1 360px; min-width: 0; position: relative; display: flex; justify-content: center">
+<div style="position: relative; width: 100%; max-width: 420px">
+<img src="img/familia-parque.jpg" alt="Pareja sonriente en el parque, asomada entre rocas con torres rosas al fondo" style="display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 200px 200px 32px 32px; border: 6px solid #FFFFFF; box-shadow: 0 30px 60px rgba(18,11,51,.45); box-sizing: border-box; background: #C9B6FF">
+<div style="position: absolute; left: -18px; bottom: 40px; background: #FFFFFF; color: #2A2140; border-radius: 20px; padding: 14px 18px; display: flex; gap: 12px; align-items: center; box-shadow: 0 14px 30px rgba(18,11,51,.3)">
+<span style="flex: none; width: 42px; height: 42px; border-radius: 50%; background: #FFE0EE; color: #C2246E; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"></path></svg></span>
+<span style="font-size: 14px; line-height: 1.3"><strong>Atención 100 % personal</strong><br><span style="color: #5C5470">Te atiendo yo, de principio a fin</span></span>
+</div>
+<div style="position: absolute; right: -10px; top: 36px; width: 74px; height: 74px; border-radius: 50%; background: #FF7EB6; color: #FFFFFF; display: flex; align-items: center; justify-content: center; text-align: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 13px; line-height: 1.1; transform: rotate(10deg); box-shadow: 0 10px 24px rgba(18,11,51,.3)">¡Novedades 2026!</div>
+</div>
+</div>
+</div>
+
+<!-- skyline de parque (original) -->
+<svg viewBox="0 0 1440 220" preserveAspectRatio="xMidYMax slice" aria-hidden="true" style="position: relative; display: block; width: 100%; height: 220px; margin-top: 24px">
+<g fill="#2A1670" opacity="0.55">
+<!-- noria -->
+<g class="wheel"><circle cx="220" cy="90" r="78" fill="none" stroke="#2A1670" stroke-width="6"></circle>
+<path d="M220 12v156M142 90h156M165 35l110 110M275 35L165 145" stroke="#2A1670" stroke-width="3"></path>
+<circle cx="220" cy="12" r="10"></circle><circle cx="220" cy="168" r="10"></circle><circle cx="142" cy="90" r="10"></circle><circle cx="298" cy="90" r="10"></circle><circle cx="165" cy="35" r="10"></circle><circle cx="275" cy="35" r="10"></circle><circle cx="165" cy="145" r="10"></circle><circle cx="275" cy="145" r="10"></circle></g>
+<path d="M190 220l30-130 30 130z"></path>
+<!-- carrusel -->
+<path d="M980 120l90-50 90 50z"></path><rect x="990" y="120" width="160" height="100"></rect>
+<!-- montaña rusa -->
+<path d="M1180 220 C 1220 60, 1270 60, 1300 150 S 1380 40, 1440 120 V220z"></path>
+<!-- globos -->
+<circle cx="560" cy="120" r="22"></circle><circle cx="600" cy="100" r="22"></circle>
+</g>
+<path d="M0 170 C 240 130, 480 210, 720 170 S 1200 130, 1440 175 V220 H0z" fill="#FFF8EE"></path>
+</svg>
+</section>
+
+<!-- ===== POR QUÉ ===== -->
+<section style="padding: 72px 24px 96px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<div style="max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">¿Por qué conmigo?</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Un viaje a Disneyland Paris tiene mil detalles. Yo los conozco todos.</h2>
+<p style="margin: 0; color: #5C5470; font-size: 18px">Las reglas, los precios y las novedades cambian cada temporada. Mi trabajo es que aciertes a la primera sin perder horas buscando.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 22px">
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08); border-top: 6px solid #FFC94A">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #FFF1C9; color: #A36A00; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v8H4v-8M2 7h20v5H2zM12 20V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Mismo precio</h3>
+<p style="margin: 0; color: #5C5470">Los proveedores me pagan una comisión: tu paquete cuesta lo mismo que reservando directamente.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08); border-top: 6px solid #FF7EB6">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #FFE0EE; color: #C2246E; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Cazadora de ofertas</h3>
+<p style="margin: 0; color: #5C5470">Si sale una promoción aplicable después de reservar, intento aplicarla a tu viaje.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08); border-top: 6px solid #3FC6BE">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #D7F5F2; color: #137A73; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z"></path></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Siempre al día</h3>
+<p style="margin: 0; color: #5C5470">Formación continua y visitas propias: sé qué es nuevo esta temporada y qué merece la pena.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08); border-top: 6px solid #7B5CFF">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #E8E1FF; color: #4B2FC2; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"></path></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Tu hada madrina del viaje</h3>
+<p style="margin: 0; color: #5C5470">Una sola persona de contacto para cambios, dudas o imprevistos, también durante el viaje.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== SERVICIOS ===== -->
+<section id="servicios" style="position: relative; padding: 110px 24px 120px; background: #EFE7FF">
+<svg viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; top: -1px; left: 0; width: 100%; height: 60px"><path d="M0 0 H1440 V20 C 1080 70, 360 -10, 0 40z" fill="#FFF8EE"></path></svg>
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<div style="max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">Mis servicios</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Todo lo que hago para que solo pienses en disfrutar</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px">
+
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FFC94A; color: #2A1670; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(-6deg)">01</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Presupuesto a medida</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Comparo fechas, hoteles y entradas según tu presupuesto, las edades y lo que os hace ilusión.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FF7EB6; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(5deg)">02</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">El hotel perfecto</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Hoteles oficiales o asociados con traslado. Te explico ventajas como la entrada anticipada y gestiono peticiones de habitación.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #3FC6BE; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(-4deg)">03</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Entradas y pases</h3><p style="margin: 0; color: #5C5470; font-size: 16px">De 1 a varios días, 1 o 2 parques, y cómo vincularlas a la app oficial para entrar sin pasar por taquilla.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #7B5CFF; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(6deg)">04</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Vuelos y traslados</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Vuelo desde tu ciudad y traslado del aeropuerto al hotel, todo en un mismo paquete.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FFC94A; color: #2A1670; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(-6deg)">05</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Comidas con personajes</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Reservo restaurantes en cuanto se abre el plazo y te ayudo a decidir si te compensa un plan de comidas.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FF7EB6; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(5deg)">06</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Adiós a las colas</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Premier Access: si te compensa, para qué atracciones y cómo usarlo. Y las horas en que cada atracción tiene menos espera.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #3FC6BE; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(-4deg)">07</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Itinerario día a día</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Un plan por parque y por día, con horarios de apertura, desfiles y espectáculos nocturnos.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #7B5CFF; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(6deg)">08</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Momentos especiales</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Transformación de princesas, temporadas de Halloween y Navidad, sorpresas de cumpleaños.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FFC94A; color: #2A1670; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(-6deg)">09</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Pensado para tus peques</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Qué atracciones encajan con la edad y la altura de cada niño, y cuándo encajar siestas y descansos.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FF7EB6; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(5deg)">10</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Viajes accesibles</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Servicios de accesibilidad del parque, alquiler de sillas o carritos y hoteles con habitaciones adaptadas.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #3FC6BE; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(-4deg)">11</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Seguro y documentos</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Seguro de viaje y cancelación, y recordatorios de DNI o pasaporte y tarjeta sanitaria europea.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #7B5CFF; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(6deg)">12</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Tu guía mágica</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Dosier personalizado y ayuda para configurar la app oficial: entradas, reservas y tiempos de espera.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FFC94A; color: #2A1670; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(-6deg)">13</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Pago a plazos</h3><p style="margin: 0; color: #5C5470; font-size: 16px">Reserva con una señal de 100 € y paga el resto 40 días antes del viaje. Si el paquete lleva vuelos, la señal es del 50 %.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 24px; padding: 26px; display: flex; flex-direction: column; gap: 10px"><span style="width: 52px; height: 52px; border-radius: 16px; background: #FF7EB6; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 20px; transform: rotate(5deg)">14</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 20px; font-weight: 600; color: #2A1670">Asistencia en destino</h3><p style="margin: 0; color: #5C5470; font-size: 16px">WhatsApp durante el viaje para cambios de última hora o cualquier imprevisto.</p></div>
+<div style="border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 12px; justify-content: center; background: linear-gradient(150deg, #2A1670, #5B2CA8); color: #FFFFFF">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #FFC94A">¿Sueñas algo más?</span>
+<p style="margin: 0; color: #F1E9FF; font-size: 16px">Pídemelo: si se puede organizar, lo organizo.</p>
+<a class="btn" href="#contacto" style="align-self: flex-start; background: #FFC94A; color: #2A1670; text-decoration: none; font-family: Fredoka, sans-serif; font-weight: 600; padding: 12px 22px; border-radius: 999px; font-size: 16px">Escríbeme ✦</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== PAQUETES ===== -->
+<section id="paquetes" style="position: relative; padding: 110px 24px 100px">
+<svg viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true" style="position: absolute; top: -1px; left: 0; width: 100%; height: 60px"><path d="M0 0 H1440 V40 C 1080 -10, 360 70, 0 20z" fill="#EFE7FF"></path></svg>
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<div style="max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">Disneyland Paris</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Elige cómo quieres viajar</h2>
+<p style="margin: 0; color: #5C5470; font-size: 18px">Dos parques, siete hoteles oficiales y Disney Village. En 2026 el segundo parque renace como Disney Adventure World, con World of Frozen. Tú decides cuánto organizo yo.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px">
+
+<article class="lift" style="background: #FFFFFF; border-radius: 30px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<div style="position: relative; height: 200px; background: linear-gradient(180deg, #2A1670, #8E4FD6 70%, #FF9CC8)">
+<svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%"><g fill="#FFFFFF"><circle class="tw" cx="40" cy="30" r="2"></circle><circle class="tw2" cx="120" cy="55" r="1.5"></circle><circle class="tw3" cx="230" cy="20" r="1.4"></circle></g><path d="M40 130 C 120 70, 220 60, 300 62" fill="none" stroke="#FFE08A" stroke-width="2.5" stroke-dasharray="1 10" stroke-linecap="round"></path><g transform="translate(300 52) rotate(-8)" fill="#FFFFFF"><path d="M0 8 L46 2 C 54 2, 54 14, 46 14 L0 12z"></path><path d="M18 8 L8 -14 L16 -14 L32 8z"></path><path d="M18 12 L8 32 L16 32 L32 12z"></path><path d="M2 9 L-6 -2 L0 -2 L8 9z"></path></g><path d="M100 60 L114 200 H86z M93 130h14M90 165h20" fill="#1B1145" opacity=".8"></path><path d="M0 200 C 100 160, 300 170, 400 150 V200z" fill="#1B1145" opacity=".7"></path></svg>
+<span style="position: absolute; top: 16px; left: 16px; background: #FFC94A; color: #2A1670; font-family: Fredoka, sans-serif; font-weight: 600; font-size: 13px; padding: 6px 12px; border-radius: 999px">★ El más completo</span>
+</div>
+<div style="padding: 26px; display: flex; flex-direction: column; gap: 12px; flex: 1">
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 26px; font-weight: 600; color: #2A1670">Hotel + entradas + vuelos</h3>
+<p style="margin: 0; color: #5C5470; font-size: 16px">El paquete completo desde tu ciudad. Tú solo te preocupas de hacer la maleta.</p>
+<ul style="margin: 0; padding: 0; list-style: none; color: #2A2140; font-size: 15px; font-weight: 700; display: flex; flex-direction: column; gap: 6px">
+<li>✦ Vuelos desde tu aeropuerto</li><li>✦ Traslado aeropuerto – hotel</li><li>✦ Hotel oficial o asociado</li><li>✦ Entradas de 1 o 2 parques</li>
+</ul>
+<a href="#contacto" style="margin-top: auto; padding-top: 8px; font-family: Fredoka, sans-serif; font-weight: 600; color: #5B2CA8">Pedir presupuesto →</a>
+</div>
+</article>
+
+<article class="lift" style="background: #FFFFFF; border-radius: 30px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<div style="position: relative; height: 200px; background: linear-gradient(180deg, #FF7EB6, #FFB37A 70%, #FFD98A)">
+<svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%"><circle cx="320" cy="60" r="30" fill="#FFE9A8"></circle><rect x="130" y="70" width="140" height="130" rx="6" fill="#5B2CA8"></rect><path d="M120 74 L200 30 L280 74z" fill="#2A1670"></path><g fill="#FFE08A"><rect x="150" y="90" width="20" height="20" rx="3"></rect><rect x="190" y="90" width="20" height="20" rx="3"></rect><rect x="230" y="90" width="20" height="20" rx="3"></rect><rect x="150" y="125" width="20" height="20" rx="3"></rect><rect x="230" y="125" width="20" height="20" rx="3"></rect></g><rect x="186" y="150" width="28" height="50" rx="14" fill="#2A1670"></rect><path d="M0 185 C 120 170, 280 180, 400 170 V200 H0z" fill="#3FC6BE"></path></svg>
+</div>
+<div style="padding: 26px; display: flex; flex-direction: column; gap: 12px; flex: 1">
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 26px; font-weight: 600; color: #2A1670">Hotel + entradas</h3>
+<p style="margin: 0; color: #5C5470; font-size: 16px">Si prefieres llegar por tu cuenta en coche, tren o con tus propios vuelos, yo me encargo de la estancia.</p>
+<ul style="margin: 0; padding: 0; list-style: none; color: #2A2140; font-size: 15px; font-weight: 700; display: flex; flex-direction: column; gap: 6px">
+<li>✦ Hotel oficial o asociado</li><li>✦ Entradas para los días de estancia</li><li>✦ Te explico las ventajas de cada hotel</li>
+</ul>
+<a href="#contacto" style="margin-top: auto; padding-top: 8px; font-family: Fredoka, sans-serif; font-weight: 600; color: #5B2CA8">Pedir presupuesto →</a>
+</div>
+</article>
+
+<article class="lift" style="background: #FFFFFF; border-radius: 30px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<div style="position: relative; height: 200px; background: linear-gradient(180deg, #3FC6BE, #A8F0E4)">
+<svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMax slice" aria-hidden="true" style="position: absolute; inset: 0; width: 100%; height: 100%"><g transform="rotate(-8 200 105)"><path d="M110 60 H290 V90 A15 15 0 0 0 290 120 V150 H110 V120 A15 15 0 0 0 110 90z" fill="#FFFFFF"></path><path d="M240 64 V146" stroke="#3FC6BE" stroke-width="3" stroke-dasharray="6 6"></path><path d="M175 82l6 14 15 2-11 10 3 15-13-8-13 8 3-15-11-10 15-2z" fill="#FFC94A"></path><rect x="252" y="90" width="22" height="30" rx="4" fill="#E0458F"></rect></g><path d="M0 180 C 100 165, 300 195, 400 172 V200 H0z" fill="#FFE3B0"></path></svg>
+</div>
+<div style="padding: 26px; display: flex; flex-direction: column; gap: 12px; flex: 1">
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 26px; font-weight: 600; color: #2A1670">Solo entradas</h3>
+<p style="margin: 0; color: #5C5470; font-size: 16px">¿Ya tienes alojamiento o vas a pasar el día? Te consigo las entradas que mejor encajan con tus fechas.</p>
+<ul style="margin: 0; padding: 0; list-style: none; color: #2A2140; font-size: 15px; font-weight: 700; display: flex; flex-direction: column; gap: 6px">
+<li>✦ De 1 a varios días</li><li>✦ 1 o 2 parques</li><li>✦ Ayuda para vincularlas a la app oficial</li>
+</ul>
+<a href="#contacto" style="margin-top: auto; padding-top: 8px; font-family: Fredoka, sans-serif; font-weight: 600; color: #5B2CA8">Pedir presupuesto →</a>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<!-- ===== OCASIONES ===== -->
+<section style="padding: 80px 24px; background: linear-gradient(120deg, #FFE0EE, #E8E1FF 50%, #D7F5F2)">
+<div style="max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px; align-items: center; text-align: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">Para cada sueño</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(30px, 3.4vw, 44px); line-height: 1.1; color: #2A1670">Viajes para cada momento especial</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center">
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Primera visita en familia</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Viajes con bebés</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Lunas de miel</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Cumpleaños y sorpresas</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Comuniones</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Abuelos, padres y nietos</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Necesidades especiales</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Halloween y Navidad</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Fans que repiten</span>
+<span style="background: #FFFFFF; border-radius: 999px; padding: 12px 22px; font-weight: 800; color: #2A1670; box-shadow: 0 4px 12px rgba(59,30,122,.1)">✦ Escapadas de adultos</span>
+</div>
+</div>
+</section>
+
+<!-- ===== CÓMO FUNCIONA ===== -->
+<section id="como-funciona" style="position: relative; overflow: hidden; padding: 104px 24px; color: #FFFFFF; background: linear-gradient(180deg, #120B33, #2A1670)">
+<svg width="100%" height="100%" viewBox="0 0 1440 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="position: absolute; inset: 0"><g fill="#FFFFFF"><circle class="tw" cx="100" cy="80" r="1.8"></circle><circle class="tw2" cx="400" cy="140" r="1.4"></circle><circle class="tw3" cx="800" cy="60" r="2"></circle><circle class="tw" cx="1200" cy="120" r="1.6"></circle><circle class="tw2" cx="1350" cy="500" r="1.5"></circle><circle class="tw3" cx="60" cy="560" r="1.4"></circle></g></svg>
+<div style="position: relative; max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 52px">
+<div style="max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #FFC94A">Cómo funciona</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1">Del sueño a la maleta, en seis pasos</h2>
+</div>
+<ol style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px">
+<li style="background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: 26px; padding: 26px; display: flex; gap: 18px"><span style="flex: none; width: 56px; height: 56px; background: #FFC94A; color: #2A1670; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 18px; padding-top: 6px; box-sizing: border-box">1</span><div><h3 style="margin: 0 0 6px; font-family: Fredoka, sans-serif; font-size: 21px; font-weight: 600">Cuéntame tu sueño</h3><p style="margin: 0; color: #E3D9FF; font-size: 16px">Fechas, quién viaja, edades, presupuesto y lo que os hace ilusión.</p></div></li>
+<li style="background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: 26px; padding: 26px; display: flex; gap: 18px"><span style="flex: none; width: 56px; height: 56px; background: #FFC94A; color: #2A1670; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 18px; padding-top: 6px; box-sizing: border-box">2</span><div><h3 style="margin: 0 0 6px; font-family: Fredoka, sans-serif; font-size: 21px; font-weight: 600">Presupuesto sin compromiso</h3><p style="margin: 0; color: #E3D9FF; font-size: 16px">En [24–48 h] recibes opciones comparadas y explicadas.</p></div></li>
+<li style="background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: 26px; padding: 26px; display: flex; gap: 18px"><span style="flex: none; width: 56px; height: 56px; background: #FFC94A; color: #2A1670; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 18px; padding-top: 6px; box-sizing: border-box">3</span><div><h3 style="margin: 0 0 6px; font-family: Fredoka, sans-serif; font-size: 21px; font-weight: 600">Reserva</h3><p style="margin: 0; color: #E3D9FF; font-size: 16px">Te envío el localizador, pagas la señal a la agencia y el resto 40 días antes.</p></div></li>
+<li style="background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: 26px; padding: 26px; display: flex; gap: 18px"><span style="flex: none; width: 56px; height: 56px; background: #FFC94A; color: #2A1670; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 18px; padding-top: 6px; box-sizing: border-box">4</span><div><h3 style="margin: 0 0 6px; font-family: Fredoka, sans-serif; font-size: 21px; font-weight: 600">Planificación a fondo</h3><p style="margin: 0; color: #E3D9FF; font-size: 16px">Restaurantes, experiencias, colas e itinerario. Y sigo vigilando ofertas.</p></div></li>
+<li style="background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: 26px; padding: 26px; display: flex; gap: 18px"><span style="flex: none; width: 56px; height: 56px; background: #FFC94A; color: #2A1670; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 18px; padding-top: 6px; box-sizing: border-box">5</span><div><h3 style="margin: 0 0 6px; font-family: Fredoka, sans-serif; font-size: 21px; font-weight: 600">Tu dosier mágico</h3><p style="margin: 0; color: #E3D9FF; font-size: 16px">Guía personalizada, documentos y checklist de maleta antes de salir.</p></div></li>
+<li style="background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: 26px; padding: 26px; display: flex; gap: 18px"><span style="flex: none; width: 56px; height: 56px; background: #FFC94A; color: #2A1670; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); display: flex; align-items: center; justify-content: center; font-family: Fredoka, sans-serif; font-weight: 700; font-size: 18px; padding-top: 6px; box-sizing: border-box">6</span><div><h3 style="margin: 0 0 6px; font-family: Fredoka, sans-serif; font-size: 21px; font-weight: 600">¡A vivir la magia!</h3><p style="margin: 0; color: #E3D9FF; font-size: 16px">Te acompaño por WhatsApp durante el viaje y a la vuelta me lo cuentas.</p></div></li>
+</ol>
+</div>
+</section>
+
+<!-- ===== TARIFAS ===== -->
+<section id="tarifas" style="padding: 104px 24px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px">
+<div style="max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">Tarifas</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Claras como el agua desde el principio</h2>
+</div>
+<div style="width: 100%; max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; align-items: center">
+<div class="lift" style="background: #FFFFFF; border-radius: 30px; padding: 34px; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Solo asesoría</h3>
+<p style="margin: 0; font-family: Fredoka, sans-serif; font-size: 40px; font-weight: 700; color: #5B2CA8">50 €<span style="font-family: Nunito, sans-serif; font-size: 15px; font-weight: 700; color: #5C5470"> por sesión</span></p>
+<ul style="margin: 0; padding: 0; list-style: none; color: #5C5470; display: flex; flex-direction: column; gap: 8px">
+<li>★ Para quien ya reservó por su cuenta</li><li>★ Videollamada de 60 minutos y plan por escrito</li><li>★ Hoteles, colas, restaurantes e itinerario</li>
+</ul>
+<a href="#contacto" style="align-self: flex-start; margin-top: 6px; color: #2A1670; text-decoration: none; font-family: Fredoka, sans-serif; font-weight: 600; padding: 11px 22px; border-radius: 999px; border: 2px solid #5B2CA8">Reservar asesoría</a>
+</div>
+<div style="position: relative; background: linear-gradient(160deg, #2A1670, #5B2CA8); color: #FFFFFF; border-radius: 30px; padding: 44px 34px; display: flex; flex-direction: column; gap: 14px; box-shadow: 0 24px 50px rgba(42,22,112,.35)">
+<span style="position: absolute; top: -16px; left: 50%; transform: translateX(-50%); background: #FFC94A; color: #2A1670; font-family: Fredoka, sans-serif; font-weight: 600; font-size: 14px; padding: 8px 18px; border-radius: 999px; white-space: nowrap">★ La opción recomendada</span>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600">Viaje reservado conmigo</h3>
+<p style="margin: 0; font-family: Fredoka, sans-serif; font-size: 52px; font-weight: 700; color: #FFC94A">0 €<span style="font-family: Nunito, sans-serif; font-size: 15px; font-weight: 700; color: #E3D9FF"> de gestión</span></p>
+<ul style="margin: 0; padding: 0; list-style: none; color: #F1E9FF; display: flex; flex-direction: column; gap: 8px">
+<li>✦ Hotel + entradas + vuelos, hotel + entradas o solo entradas</li><li>✦ Presupuesto y asesoramiento</li><li>✦ Reservas de restaurantes</li><li>✦ Itinerario y vigilancia de promociones</li><li>✦ Guía de viaje y soporte en destino</li>
+</ul>
+<a class="btn" href="#contacto" style="align-self: flex-start; margin-top: 6px; background: #FFC94A; color: #2A1670; text-decoration: none; font-family: Fredoka, sans-serif; font-weight: 600; padding: 13px 24px; border-radius: 999px">Empezar ✦</a>
+</div>
+</div>
+<p style="margin: 0; text-align: center; color: #5C5470; font-size: 14px">* Sin gastos de gestión en paquetes reservados a través de Archer Travel. Tasas turísticas y seguros opcionales se indican siempre en el presupuesto.</p>
+</div>
+</section>
+
+<!-- ===== CONFIANZA ===== -->
+<section id="confianza" style="padding: 96px 24px; background: #D7F5F2">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 44px">
+<div style="max-width: 760px; margin: 0 auto; text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #C2246E">Reserva tranquilo</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Tu reserva, comprobable antes de pagar un euro</h2>
+<p style="margin: 0; color: #3F3856; font-size: 18px">Sé que confiar tus vacaciones a alguien nuevo da respeto. Por eso todo el proceso es transparente y puedes verificarlo en cada paso.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 22px">
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #FFF1C9; color: #A36A00; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9V6a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v3a3 3 0 0 0 0 6v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-3a3 3 0 0 0 0-6z"></path><path d="M14 5v14" stroke-dasharray="2 2"></path></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Tu localizador antes de pagar</h3>
+<p style="margin: 0; color: #5C5470">Antes de hacer ningún pago recibes el localizador de tu reserva, para que puedas consultarla tú mismo en la web oficial de Disneyland Paris.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #D7F5F2; color: #137A73; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10l9-6 9 6"></path><path d="M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 21h18"></path></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Pagas a la agencia</h3>
+<p style="margin: 0; color: #5C5470">Los pagos se hacen a la cuenta de Archer Travel, la agencia que emite tu reserva. Nunca a una cuenta personal.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #FFE0EE; color: #C2246E; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><path d="M14 3v6h6M8 13h8M8 17h5"></path></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Todo por escrito</h3>
+<p style="margin: 0; color: #5C5470">Presupuesto detallado y sin compromiso: qué incluye, cuánto cuesta y cuándo se paga cada parte.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08)">
+<div style="width: 58px; height: 58px; border-radius: 50%; background: #E8E1FF; color: #4B2FC2; display: flex; align-items: center; justify-content: center"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 12l2 2 4-4"></path></svg></div>
+<h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Bonos oficiales</h3>
+<p style="margin: 0; color: #5C5470">Al completar el pago te entrego los bonos de tu viaje, con todo lo necesario para llegar al hotel y entrar al parque.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== SOBRE MÍ ===== -->
+<section id="sobre-mi" style="padding: 96px 24px; background: #FFF1C9">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; justify-content: center">
+<div style="position: relative; width: 100%; max-width: 400px">
+<img src="img/lorena.jpg" alt="Retrato de la agente sonriendo en el parque" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; border: 8px solid #FFFFFF; box-shadow: 0 20px 44px rgba(59,30,122,.2); box-sizing: border-box; background: #C9B6FF">
+<svg width="70" height="70" viewBox="0 0 24 24" aria-hidden="true" style="position: absolute; top: -6px; right: 10px"><path class="tw" d="M12 2l2.4 5.6L20 8.3l-4.3 3.9 1.2 5.8L12 15l-4.9 3 1.2-5.8L4 8.3l5.6-.7z" fill="#FF7EB6"></path></svg>
+<svg width="44" height="44" viewBox="0 0 24 24" aria-hidden="true" style="position: absolute; bottom: 20px; left: 0"><path class="tw2" d="M12 2l2.4 5.6L20 8.3l-4.3 3.9 1.2 5.8L12 15l-4.9 3 1.2-5.8L4 8.3l5.6-.7z" fill="#7B5CFF"></path></svg>
+</div>
+</div>
+<div style="flex: 999 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">Encantada</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Hola, soy Lorena</h2>
+<p style="margin: 0; color: #5C5470; font-size: 18px">Soy madre de dos peques y he vivido Disneyland Paris con ellos dos veces: una en septiembre, con días largos y templados, y otra en noviembre, con abrigo en la maleta y el ambiente navideño recién estrenado. Y ya tenemos reservado el tercero, para octubre, en plena temporada de Halloween. Preparar esos viajes me llevó horas de foros, vídeos y listas… y descubrí que disfrutaba casi tanto organizándolos como viviéndolos.</p>
+<p style="margin: 0; color: #5C5470; font-size: 18px">Por eso me dedico a esto: para que otras familias lleguen al parque sabiendo qué hacer en cada momento, sin agobios y sin perder ni una pizca de magia. Lo que me hace distinta es que planifico pensando como madre: atracciones según la edad y la altura de cada niño, descansos a tiempo, comidas sin colas eternas y esos pequeños detalles que convierten un buen viaje en un recuerdo para siempre.</p>
+<ul style="margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px">
+<li style="background: #FFFFFF; border-radius: 18px; padding: 14px 18px; font-weight: 800; color: #2A1670">🎓 Agente Disney autorizada</li>
+<li style="background: #FFFFFF; border-radius: 18px; padding: 14px 18px; font-weight: 800; color: #2A1670">✈ 2 viajes a Disneyland Paris en familia, y el 3.º ya reservado</li>
+<li style="background: #FFFFFF; border-radius: 18px; padding: 14px 18px; font-weight: 800; color: #2A1670">🏢 Agencia: Archer Travel</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- ===== OPINIONES ===== -->
+<section style="padding: 104px 24px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 44px">
+<div style="text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">Mi promesa</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Empiezo con toda la ilusión, y se nota en cada viaje</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08); border-top: 6px solid #FF7EB6"><span style="font-family: 'Dancing Script', cursive; font-size: 40px; line-height: 1; color: #E0458F">1</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Toda mi dedicación</h3><p style="margin: 0; color: #5C5470">Cada familia tiene mi atención completa. Siempre te responde la misma persona: yo.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08); border-top: 6px solid #FFC94A"><span style="font-family: 'Dancing Script', cursive; font-size: 40px; line-height: 1; color: #A36A00">2</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Viajera antes que agente</h3><p style="margin: 0; color: #5C5470">He vivido Disneyland Paris con mis dos hijos en septiembre y en noviembre, y en octubre volvemos. Te cuento lo que funciona de verdad, no lo que dice un folleto.</p></div>
+<div class="lift" style="background: #FFFFFF; border-radius: 28px; padding: 30px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 6px 20px rgba(59,30,122,.08); border-top: 6px solid #3FC6BE"><span style="font-family: 'Dancing Script', cursive; font-size: 40px; line-height: 1; color: #137A73">3</span><h3 style="margin: 0; font-family: Fredoka, sans-serif; font-size: 22px; font-weight: 600; color: #2A1670">Sin letra pequeña</h3><p style="margin: 0; color: #5C5470">Presupuestos claros, sin compromiso y sin presión. Si algo no te encaja, te lo digo antes de reservar.</p></div>
+</div>
+</div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" style="padding: 96px 24px; background: #EFE7FF">
+<div style="max-width: 880px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px">
+<div style="text-align: center; display: flex; flex-direction: column; gap: 12px; align-items: center">
+<span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #E0458F">¿Dudas?</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1; color: #2A1670">Preguntas frecuentes</h2>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Me sale más caro reservar contigo?</summary><p style="margin: 12px 0 0; color: #5C5470">No en los paquetes oficiales: el precio es el mismo que reservando directamente, porque mi trabajo lo paga el proveedor con una comisión. Solo se cobra la asesoría (50 €) cuando el viaje lo has reservado por tu cuenta.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Trabajas para Disney?</summary><p style="margin: 12px 0 0; color: #5C5470">Soy agente Disney autorizada e independiente, especializada en Disneyland Paris. Reservo productos oficiales a través de la agencia Archer Travel.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Con cuánta antelación debo reservar?</summary><p style="margin: 12px 0 0; color: #5C5470">De 3 a 6 meses es lo ideal, sobre todo para Halloween, Navidad y vacaciones escolares. Si tu viaje es antes, escríbeme igualmente: muchas veces hay opciones.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ Ya reservé por mi cuenta. ¿Puedes ayudarme?</summary><p style="margin: 12px 0 0; color: #5C5470">Sí, con la modalidad «Solo asesoría».</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Qué pasa si baja el precio después de reservar?</summary><p style="margin: 12px 0 0; color: #5C5470">Reviso las promociones que van saliendo y, cuando son aplicables a tu reserva, te lo comunico para ajustarla.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Cómo sé que mi reserva es real?</summary><p style="margin: 12px 0 0; color: #5C5470">Antes de hacer ningún pago te envío el localizador de tu reserva, para que la compruebes directamente en la web oficial de Disneyland Paris. Además, el pago se hace a la cuenta de la agencia Archer Travel, no a una cuenta personal.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Puedo pagar a plazos?</summary><p style="margin: 12px 0 0; color: #5C5470">Sí. Al reservar pagas una señal de 100 € y el resto, 40 días antes del viaje. Si el paquete incluye vuelos, la señal es del 50 % del importe de la reserva.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Puedo reservar solo las entradas, o solo hotel y entradas?</summary><p style="margin: 12px 0 0; color: #5C5470">Sí. Puedes elegir el paquete completo con vuelos, solo hotel y entradas, o solo entradas. Te preparo el presupuesto de la opción que prefieras.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ ¿Qué documentación necesito?</summary><p style="margin: 12px 0 0; color: #5C5470">DNI o pasaporte en vigor para cada viajero, también los niños, y la tarjeta sanitaria europea. Te envío un recordatorio antes del viaje.</p></details>
+<details style="border-radius: 20px; padding: 20px 26px; background: #FFFFFF"><summary style="font-family: Fredoka, sans-serif; font-weight: 600; font-size: 19px; color: #2A1670">✦ Viajamos con una persona con necesidades especiales.</summary><p style="margin: 12px 0 0; color: #5C5470">Te explico los servicios de accesibilidad del parque, cómo solicitarlos y qué hoteles y alquileres de material encajan mejor.</p></details>
+</div>
+</div>
+</section>
+
+<!-- ===== CONTACTO ===== -->
+<section id="contacto" style="position: relative; overflow: hidden; padding: 104px 24px; color: #FFFFFF; background: linear-gradient(160deg, #120B33 0%, #2A1670 50%, #5B2CA8 100%)">
+<svg width="100%" height="100%" viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="position: absolute; inset: 0"><g fill="#FFFFFF"><circle class="tw" cx="90" cy="100" r="1.8"></circle><circle class="tw2" cx="300" cy="700" r="1.5"></circle><circle class="tw3" cx="520" cy="80" r="2"></circle><circle class="tw" cx="1380" cy="700" r="1.6"></circle></g><g class="fw" stroke="#FF8FC4" stroke-width="3" stroke-linecap="round"><path d="M180 260v-26M180 286v26M154 260h-26M206 260h26M162 242l-18-18M198 242l18-18M162 278l-18 18M198 278l18 18"></path></g></svg>
+<div style="position: relative; max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<span style="font-family: 'Dancing Script', cursive; font-size: 34px; color: #FFC94A">¡Empieza la magia!</span>
+<h2 style="margin: 0; font-family: Fredoka, sans-serif; font-weight: 700; font-size: clamp(32px, 3.8vw, 50px); line-height: 1.1">Pide tu presupuesto gratis</h2>
+<p style="margin: 0; color: #E3D9FF; font-size: 18px">Cuantos más detalles me des, más ajustado será. Te respondo en [24–48 h].</p>
+<div style="display: flex; flex-direction: column; gap: 12px; font-weight: 800">
+<a href="https://wa.me/34746047233?text=Hola%20Lorena%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20para%20un%20viaje%20m%C3%A1gico%20%E2%9C%A8" target="_blank" rel="noopener" style="color: #FFFFFF; text-decoration: none; background: rgba(255,255,255,.1); border-radius: 16px; padding: 14px 18px">💬 WhatsApp: 746 04 72 33</a>
+<a href="mailto:lovifer@gmail.com" style="color: #FFFFFF; text-decoration: none; background: rgba(255,255,255,.1); border-radius: 16px; padding: 14px 18px">✉ Email: lovifer@gmail.com</a>
+</div>
+</div>
+<form action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8" style="position: relative; flex: 999 1 560px; min-width: 0; background: #FFFFFF; color: #2A2140; border-radius: 32px; padding: 34px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; box-shadow: 0 30px 60px rgba(18,11,51,.4)">
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Nombre<input type="text" name="nombre" required autocomplete="name" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Email<input type="email" name="email" required autocomplete="email" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Teléfono<input type="tel" name="telefono" autocomplete="tel" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">¿Qué necesitas?<select name="modalidad" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; background: #FFFFFF"><option>Hotel + entradas + vuelos</option><option>Hotel + entradas</option><option>Solo entradas</option><option>Solo asesoría (50 €)</option><option>Aún no lo sé</option></select></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Fechas aproximadas<input type="text" name="fechas" placeholder="Ej.: Semana Santa 2027" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Ciudad de salida<input type="text" name="salida" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Adultos<input type="number" min="1" name="adultos" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Niños y edades<input type="text" name="ninos" placeholder="Ej.: 2 (4 y 7 años)" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; box-sizing: border-box"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Presupuesto aproximado<select name="presupuesto" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; background: #FFFFFF"><option>Menos de 1.500 €</option><option>1.500 – 3.000 €</option><option>3.000 – 6.000 €</option><option>Más de 6.000 €</option><option>Prefiero no decirlo</option></select></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">¿Celebráis algo?<select name="ocasion" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; min-height: 48px; background: #FFFFFF"><option>Nada especial</option><option>Cumpleaños</option><option>Luna de miel / aniversario</option><option>Comunión</option><option>Otra</option></select></label>
+<label style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 6px; font-weight: 800; font-size: 15px; color: #2A1670">Cuéntame tu sueño<textarea name="mensaje" rows="4" placeholder="Primera visita, personajes favoritos, necesidades especiales…" style="border: 2px solid #DDD3F5; border-radius: 14px; padding: 12px 14px; resize: vertical"></textarea></label>
+<label style="grid-column: 1 / -1; display: flex; gap: 10px; align-items: flex-start; font-size: 14px; color: #5C5470"><input type="checkbox" name="privacidad" value="si" required style="width: 20px; height: 20px; margin-top: 2px">He leído y acepto la <a href="privacidad.html" target="_blank" style="color: #5B2CA8">política de privacidad</a> y que se usen mis datos para preparar el presupuesto.</label>
+<input type="hidden" name="access_key" value="PEGA_AQUI_TU_CLAVE_DE_WEB3FORMS">
+<input type="hidden" name="subject" value="Nueva solicitud de presupuesto · viajemagico.es">
+<input type="hidden" name="from_name" value="Web Lorena Viaje Mágico">
+<input type="hidden" name="redirect" value="https://viajemagico.es/gracias.html">
+<input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display: none">
+<button class="btn" type="submit" style="grid-column: 1 / -1; justify-self: start; background: #FFC94A; color: #2A1670; border: none; font-family: Fredoka, sans-serif; font-weight: 600; font-size: 18px; padding: 16px 34px; border-radius: 999px; min-height: 54px; cursor: pointer">Enviar y recibir mi presupuesto ✦</button>
+</form>
+</div>
+</section>
+
+<!-- ===== PIE ===== -->
+<footer style="background: #0D0826; color: #C9BEEA; padding: 52px 24px; font-size: 14px">
+<div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<span style="display: flex; align-items: baseline; gap: 10px"><span style="font-family: 'Dancing Script', cursive; font-size: 30px; color: #FFE08A">Lorena</span><span style="font-family: Fredoka, sans-serif; letter-spacing: .2em; text-transform: uppercase; color: #FFFFFF; font-size: 13px">Viaje Mágico</span></span>
+<nav aria-label="Legal" style="display: flex; flex-wrap: wrap; gap: 8px 20px">
+<a href="aviso-legal.html" style="color: #C9BEEA">Aviso legal</a>
+<a href="privacidad.html" style="color: #C9BEEA">Privacidad</a>
+<a href="cookies.html" style="color: #C9BEEA">Cookies</a>
+</nav>
+</div>
+<p style="margin: 0">Lorena Viaje Mágico gestiona sus reservas a través de la agencia Archer Travel. Disney y las marcas relacionadas pertenecen a The Walt Disney Company; su mención es solo descriptiva.</p>
+</div>
+</footer>
+
+</div>
+</body>
+</html>

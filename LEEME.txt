@@ -1,0 +1,49 @@
+LORENA VIAJE MÁGICO — PUBLICAR GRATIS EN GITHUB PAGES CON viajemagico.es
+=========================================================================
+
+1. ANTES DE SUBIR
+   a) Domicilio: en aviso-legal.html y privacidad.html cambia [Domicilio] por
+      el domicilio de la titular (lo exige la LSSI).
+   b) Clave del formulario:
+      - Entra en https://web3forms.com, escribe lovifer@gmail.com y pulsa
+        "Create Access Key". Te llega la clave por email (es gratis).
+      - Abre index.html, busca PEGA_AQUI_TU_CLAVE_DE_WEB3FORMS y sustitúyelo
+        por esa clave. Las solicitudes llegarán a ese email.
+
+2. SUBIR A GITHUB
+   - Crea una cuenta en https://github.com si no la tienes.
+   - New repository > nombre por ejemplo "viajemagico" > Public > Create.
+   - "uploading an existing file": arrastra TODO el contenido de esta carpeta
+     (también los archivos CNAME y .nojekyll y las carpetas css, fonts, img)
+     y pulsa "Commit changes".
+     Nota: .nojekyll es un archivo oculto; si tu ordenador no lo muestra,
+     no pasa nada grave, es opcional.
+
+3. ACTIVAR GITHUB PAGES
+   - En el repositorio: Settings > Pages.
+   - Source: "Deploy from a branch" > Branch: main / (root) > Save.
+   - En "Custom domain" debe aparecer viajemagico.es (lo lee del archivo
+     CNAME). Si no, escríbelo y pulsa Save.
+
+4. APUNTAR EL DOMINIO (en el panel DNS de Piensa Solutions)
+   Borra los registros A o CNAME que haya para @ y www, y crea:
+     Tipo A     @ (viajemagico.es)   185.199.108.153
+     Tipo A     @                    185.199.109.153
+     Tipo A     @                    185.199.110.153
+     Tipo A     @                    185.199.111.153
+     Tipo CNAME www                  TUUSUARIO.github.io   (tu usuario de GitHub)
+   ¡No toques los registros MX! Son los del correo de Piensa Solutions.
+
+5. HTTPS
+   - Los cambios de DNS tardan de unos minutos a 24 h.
+   - Cuando GitHub muestre "DNS check successful", marca "Enforce HTTPS"
+     en Settings > Pages.
+
+6. PROBAR EL FORMULARIO
+   - Envía una solicitud de prueba desde https://viajemagico.es
+   - Debe aparecer la página de gracias y llegar el correo (mira spam la
+     primera vez y marca "No es spam").
+
+7. CAMBIOS FUTUROS
+   - Para modificar la web, edita o vuelve a subir el archivo en GitHub
+     (Add file > Upload files). Se publica solo en un par de minutos.
